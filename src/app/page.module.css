@@ -29,7 +29,7 @@
   position: relative;
   margin: 0;
   padding: 1rem;
-  background-color: rgba(var(--callout-rgb), 0.5);
+  background-color: rgba(var(--callout-rgb), 0.1);
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
 }
@@ -57,11 +57,6 @@
 .card span {
   display: inline-block;
   transition: transform 200ms;
-}
-
-.card h2 {
-  font-weight: 600;
-  margin-bottom: 0.7rem;
 }
 
 .card p {
@@ -145,6 +140,7 @@
 
   .card h2 {
     margin-bottom: 0.5rem;
+    color: white;
   }
 
   .center {
